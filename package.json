@@ -1,0 +1,66 @@
+{
+  "_from": "git+https://github.com/adriangrana/cordova-zebra-printer.git",
+  "_id": "cordova-zebra-printer@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-2TFJxu2oVe12xOhcqGNcsDC0j78=",
+  "_location": "/cordova-zebra-printer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/adriangrana/cordova-zebra-printer.git",
+    "rawSpec": "https://github.com/adriangrana/cordova-zebra-printer.git",
+    "saveSpec": "git+https://github.com/adriangrana/cordova-zebra-printer.git",
+    "fetchSpec": "https://github.com/adriangrana/cordova-zebra-printer.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/adriangrana/cordova-zebra-printer.git#88f42e1011b7d8c7e50370cb2aece992f579ddef",
+  "_spec": "https://github.com/adriangrana/cordova-zebra-printer.git",
+  "_where": "/Users/Yorch/Desktop/yms-mobile",
+  "author": {
+    "name": "Adrian Torres Graña"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-device/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-zebra-printer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Zebra Printer Plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-device#readme",
+  "keywords": [
+    "cordova",
+    "zebra",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-zebra-printer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-device.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint"
+  },
+  "version": "1.0.0"
+}
