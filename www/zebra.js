@@ -58,5 +58,6 @@
 
     Zebra.prototype.getstatus = function(serialNumber,successCallback,errorCallback){
         exec(successCallback,errorCallback,"Zebra","getstatus",[serialNumber]);
+    };
     
     module.exports = new Zebra();
